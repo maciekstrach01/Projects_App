@@ -1,0 +1,76 @@
+section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:2em;
+    padding: 2em;
+    overflow: auto;
+}
+
+
+.projects>div>img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1em 1em 0 0;
+}
+
+.projects>div>div{
+    height: 40%;
+    color: #2699FB;
+    margin:1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.projects>div{
+    border:1px solid gray;
+    border-radius: 1em 1em 0 0;
+    height:400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+}
+
+.social-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-section > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-section i {
+    margin-bottom: -0.7em;
+}
+
+.social-section > div i {
+    margin-top: 2em;
+    margin: 0 0.5em;
+}
+
+
+.social-section i,
+.social-section span {
+    margin-top: 1em;
+    margin: 0;
+}
+
+section.project-form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+project-form>form {
+    display: flex;
+    flex-direction: column;
+}
+
+
